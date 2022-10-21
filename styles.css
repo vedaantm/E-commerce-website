@@ -1,0 +1,79 @@
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    font-family: 'Advent Pro', sans-serif;
+  
+    background-color: rgb(44,44,44);
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #767474;
+}
+
+input[type=submit] {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    background-color: #d61313;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+
+.full {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px auto;
+
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#product-nav {
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  
+}
+#product-nav li {
+    float: left;
+    padding: 8px 16px;
+    font-size: 16px;
+    
+}
+#product-nav li a {
+    color: #f8f4f4;
+}
+   #product-nav li a:hover,
+   #product-nav li a:active {
+    color: #919191;
+   }
+
+   main > .container {
+    margin-top: 16px;
+  }
+   .clear,
+   .full::after, .container::after {
+    content: "";
+    display: table;
+    clear: both; 
+   }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kick It All/ Sign-Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body style="background-color:black;">
+    <main class="container">
+
+    <nav id="product-nav" class="full">
+       
+        <li><a href="D:\SEM 6\wtproj\homepage\index.html">Home</a></li>
+        <li><a href="D:\SEM 6\wtproj\clothing-website-master\index.html">Products</a></li>
+        <li><a href="D:\SEM 6\wtproj\homepage\about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float: right"><a href="/login">Login</a></li>
+        <li style="float: right"><a href="/signup">Register</a></li>
+    </nav>
+
+    <div class="container" style="padding-bottom: 150px;">
+        <h1 style="color: white">KICK<br>IT<br>ALL</h1>
+        <div class="row">
+            <div class="col-md-3">
+        </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <a href="index.html"><img src="logo.png" alt="logo" style="height: 64px ;" />
+                    <h2 style="color:red">Sign Up to become a member!</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    <br>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+                    <br>
+                    <input type="password" class="box" id="password" name="password" placeholder="Password" required />
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+            <!-- <div class="col-md-3">
+            </div> -->
+        </div>
+    </div>
+    </body>
+</html>
